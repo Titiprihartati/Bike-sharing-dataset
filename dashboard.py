@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMBqjKECdmdkc8GXBSweeFA",
+      "authorship_tag": "ABX9TyOkD7xUyWfRD/KeBEFp62Zo",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -29,7 +29,6 @@
     {
       "cell_type": "code",
       "source": [
-        "%%writefile dashboard.py\n",
         "import streamlit as st\n",
         "import pandas as pd\n",
         "import matplotlib.pyplot as plt\n",
