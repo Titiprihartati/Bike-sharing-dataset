@@ -4,8 +4,8 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOkD7xUyWfRD/KeBEFp62Zo",
-      "include_colab_link": True
+      "authorship_tag": "ABX9TyMBqjKECdmdkc8GXBSweeFA",
+      "include_colab_link": true
     },
     "kernelspec": {
       "name": "python3",
@@ -29,6 +29,7 @@
     {
       "cell_type": "code",
       "source": [
+        "%%writefile dashboard.py\n",
         "import streamlit as st\n",
         "import pandas as pd\n",
         "import matplotlib.pyplot as plt\n",
@@ -144,9 +145,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "ReiFVqV5ybSp",
-        "outputId": "74fa75c5-a3bf-4998-9789-895590d373d6"
+        "outputId": "92a9a480-93f0-4f57-9153-ea07355bd592"
       },
-      "execution_count": 31,
+      "execution_count": 32,
       "outputs": [
         {
           "output_type": "stream",
